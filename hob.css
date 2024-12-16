@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "railway" sans-serif;
+}
+header{
+    height: 150px;
+     background-image: url(technology-6701504_1280.webp);
+    background-repeat: no-repeat; 
+    background-position:center center;
+    background-size:cover ;
+    /* display: flex; */
+}
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+}
+#m-portfolio a{
+    font-size: 18px;
+    color: #f0f4f9;
+    margin-left: 100px;
+    text-decoration: none;
+}
+#menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    font-size: 18px;
+    padding: 15px;
+    
+}
+#menu ul a{
+    text-decoration: none;
+    color: rgba(12, 9, 222, 0.823);
+    font-size: 18px;
+    padding: 15px;
+    background-color:orange;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+
+}
+#menu ul a:hover{
+    background-color: rgba(2, 13, 216, 0.758);
+    color: rgba(255, 166, 0, 0.784);
+    border: 2px solid #f4f4f4;
+} 
+section{
+    background-color: black;
+}
+#hobi{
+    height: 600px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+#hob-list h2{
+    color: beige;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    word-spacing: 1px;
+}
+#hob-list p{
+    color: aliceblue;
+    font-size: 27px;
+    margin-bottom: 20px;
+    word-spacing: 1px;
+}
+#hobi-list{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    
+}
+#hobi-list h1{
+    font-size: 27px;
+    color: aliceblue;
+    font-weight: 500;
+    margin-left:30px;
+    margin-bottom: 10px;
+}
+#hobi-list ul{
+    font-size: 18px;
+    list-style-type: none;
+    margin-left: 60px;
+    color: azure;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-gap-override: 1px;
+}
+
+#hob-image img{
+    width: 244px;
+    border-radius: 25px;  
+    
+}
+footer{
+    background-color: #ef8c9e;
+   }
+   #footer-top{
+    height: 100%;
+    width: 100%;
+    max-height: 150px;
+   }
+   #footer-top h3{
+    font-size: 27px;
+    color: #363636;
+
+   }
+   #footer-middle p{
+    font-size: 14px;
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+   }
+   #footer-middle img{
+    width: 116px;
+    margin:10px auto;
+    border: 2px solid transparent;
+    border-radius: 15px;
+   }
+    #footer-end .social-icon{
+    display: flex;
+    align-items: center center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 10px;
+   }
+#footer-end h6{
+       font-size: 14px;
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+        margin-left: 45%;
+    }

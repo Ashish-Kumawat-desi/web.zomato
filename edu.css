@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "railway" sans-serif;
+}
+header{
+    height: 150px;
+     background-image:url(technology-6701504_1280.webp) ;
+    background-repeat: no-repeat; 
+    background-position:center center;
+    background-size:cover ;
+    /* display: flex; */
+}
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+}
+#m-portfolio a{
+    font-size: 18px;
+    color: #f0f4f9;
+    margin-left: 100px;
+    text-decoration: none;
+}
+#menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    font-size: 18px;
+    padding: 15px;
+    
+}
+#menu ul a{
+    text-decoration: none;
+    color:rgba(255, 0, 0, 0.71);
+    font-size: 18px;
+    padding: 15px;
+    background-color:rgba(13, 39, 191, 0.834);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+
+}
+#menu ul a:hover{
+    background-color: rgba(255, 0, 0, 0.71);
+    border: 2px solid #f4f4f4;
+    color: rgba(13, 39, 191, 0.834);
+} 
+   section{
+    background-color: black;
+   }
+   #table-list{
+    width: 100%;
+    margin: auto;
+    height:650px ;
+    max-width: 1200px;
+    flex-direction: column;
+    align-items: center;
+
+   }
+   #table-intro h2{
+    font-size: 52px;
+    color: beige;
+    
+   }
+   #table-intro table{
+    color: bisque;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+   }
+   #para p{
+    font-size: 16px;
+    color: azure;
+    word-spacing: 1px;
+   }
+   footer{
+    background-color: #ef8c9e;
+   }
+   #footer-top{
+    height: 100%;
+    width: 100%;
+    max-height: 150px;
+   }
+   #footer-top h3{
+    font-size: 27px;
+    color: #363636;
+
+   }
+   #footer-middle p{
+    font-size: 14px;
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+   }
+   #footer-middle img{
+    width: 116px;
+    margin:10px auto;
+    border: 2px solid transparent;
+    border-radius: 15px;
+   }
+    #footer-end .social-icon{
+    display: flex;
+    align-items: center center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 10px;
+   }
+#footer-end h6{
+       font-size: 14px;
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+        margin-left: 45%;
+    }
